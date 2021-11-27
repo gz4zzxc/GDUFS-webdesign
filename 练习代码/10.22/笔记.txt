@@ -1,0 +1,3 @@
+<h3>绝对地址和相对地址   
+<p><img scr="file://C:\Users\Administrator\Desktop\Audio.png"></p><!--绝对地址-->
+<p><img scr="burn.png" with="128" height="128"></p><!--相对地址-->

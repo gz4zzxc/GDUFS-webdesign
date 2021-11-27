@@ -1,0 +1,40 @@
+<style type="text/css">
+* {margin:0;padding:0;}
+body {
+	font:14px/1.5 "Î¢ÈíÑÅºÚ";
+	background:#E8F7FC url(images/bg.jpg) repeat-x;
+	color:#306172;
+}
+h1 {font-size:48px;}
+h2 {
+	float:left;
+	font-size:30px;
+	margin:0 0 20px;
+	background:  url(images/h2bg.jpg) repeat-x bottom;
+}
+p {
+	clear:both;
+	margin:5px 0 15px;
+	line-height: 1.7em;
+}
+#logo {
+	float:left;margin:40px 0 0;}
+#menu {
+	float:right;
+	height:120px;
+	padding:73px 0 0 98px;
+	width:475px;
+	background:url(images/white_bubbles.jpg) no-repeat top right;
+}
+#menu li {display:inline;}
+#menu li a {
+	float:left;
+	padding:3px 10px;
+	margin:0 20px 0 0;
+}
+#text {clear:both;}
+#footer {
+	padding:85px 0 5px 0;
+	background: #FF99CB url(images/bottom.jpg) repeat-x;
+}
+</style>

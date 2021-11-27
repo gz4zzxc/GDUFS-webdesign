@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h2 style="background: #FC3;">个人基金投资者投资情况调查问卷</h2>
+<p>（1）您选择投资公募基金的主要要原因是，（  ）</p>
+	<label>
+        <input type="radio" name="q1" value="A" id="reason_1"/>
+      公募基金运作管理规范,信息披露全面，可以方便地查找相关信息，申购、赎回等均很便利<br>
+	</label>
+<label>
+        <input type="radio" name="q1" value="B" id="reason_2"/>
+      公募基金有比较强大的投研团队<br>
+</label>
+<label>
+        <input type="radio" name="q1" value="C" id="reason_3"/>
+      公基金投资门槛较低，对投资者没有太多的资质及投资金额要求
+</label>
+	
+	<p>（2）您选择投资专户一对多基金的主要原因是:（  ）</p>
+	<label>
+      <input type="radio" name="q2" value="A" id="reason_1"/>
+      专户一对多基金管理规范，同公募基金一样有比较强大的投研团，且投资范围，投资比例自由<br>
+	</label>
+	<label>
+      <input type="radio" name="q2" value="B" id="reason_2"/>
+      专户一对多产品相对于公募基金有更强的针对性，可以更好地满足投资者要求<br>
+  </label>
+	<label>
+      <input type="radio" name="q2" value="C" id="reason_3"/>
+      其他
+  </label>
+	
+	<p>（3）您希望获得哪方面的讯息？（多题题）</p>
+	<label>
+      <input type="checkbox" name="q3" value="A" id="reason_1"/>
+      产品设计理念<br>
+  </label>
+	<label>
+      <input type="checkbox" name="q3" value="B" id="reason_2"/>
+      投资思路<br>
+  </label>
+	<label>
+        <input type="checkbox" name="q3" value="C" id="reason_3"/>
+      基金经理介绍<br>
+  </label>
+	<label>
+      <input type="checkbox" name="q3" value="D" id="reason_4"/>
+      购买渠道<br>
+  </label>
+	<label>
+      <input type="checkbox" name="q3" value="E" id="reason_5"/>
+      购买费率<br>
+  </label>
+<h2 style="background: #FC3;">如您希望获得抽奖机会,请留下如下信息</h2>
+<form id="ww" name="ff" method="post" action="//form_action.asp">
+    <label for="na">姓名：</label>
+  <input type="text" name="name" id="na" size="20" maxlength="40"/> 
+</form>
+<form id="ph" name="cc" method="post" action="//form_action.asp">
+    <label for="phone">手机：</label>
+    <input type="text" name="phone" id="pho" size="20" maxlength="40"/> 
+</form>
+<form id="add" name="ee" method="post" action="//form_action.asp">
+   <label for="address">住宅：</label>
+  <input type="text" name="address" id="adr" size="30" maxlength="40"/> 
+</form>
+<p>
+	<label for=" textarea">建议：</label>
+	<textarea name="textarea" id="textarea" cols="45" rows="5"></textarea>
+</p>
+<p>
+    <input type="submit" name="button_1" id="button_1" value="提交"/>
+    <input type="reset" name="button" id="button" value="重置"/>
+</p>
+
+	
+</body>
+</html>
